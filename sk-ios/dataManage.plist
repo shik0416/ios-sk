@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MainInterface</key>
+	<array/>
+	<key>LinkInterface</key>
+	<array/>
+	<key>FindInterface</key>
+	<array>
+		<string>pengyouquan-朋友圈</string>
+		<string>shipinhao-视频号</string>
+		<array>
+			<string>saoyisao-扫一扫</string>
+			<string>yaoyiyao-摇一摇</string>
+		</array>
+		<array>
+			<string>kanyikan-看一看</string>
+			<string>souyisou-搜一搜</string>
+		</array>
+		<string>fujinderen-附近的人</string>
+		<array>
+			<string>gouwu-购物</string>
+			<string>youxi-游戏</string>
+		</array>
+		<string>xiaochengxu-小程序</string>
+	</array>
+	<key>UserInterface</key>
+	<dict>
+		<key>New item</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

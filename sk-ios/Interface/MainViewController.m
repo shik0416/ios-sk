@@ -8,8 +8,8 @@
 
 #import "MainViewController.h"
 
-@interface MainViewController ()
-
+@interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property(nonatomic,strong)UITableView *tableView;
 @end
 
 @implementation MainViewController
@@ -17,6 +17,37 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:self.tableView];
+}
+
+- (UITableView *)tableView{
+    if (_tableView == nil) {
+        _tableView = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        
+    }
+    return _tableView;
+}
+
+#pragma mark - UITableViewDelegate
+
+
+#pragma mark - UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID"];
+    if (cell == nil){
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cellID"];
+    }
+    cell.textLabel.text = @"1111";
+    
+    return cell;
 }
 
 /*

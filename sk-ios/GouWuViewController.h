@@ -1,8 +1,8 @@
 //
-//  TableViewController.h
+//  GouWuViewController.h
 //  sk-ios
 //
-//  Created by 史凯 on R 2/04/13.
+//  Created by 史凯 on R 2/04/16.
 //  Copyright © Reiwa 2 shikai. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TableViewController : UITableViewController
+@interface GouWuViewController : UIViewController
 
 @end
 

@@ -12,6 +12,17 @@
 		C701A630244444D000A16EC5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C701A62F244444D000A16EC5 /* MainViewController.m */; };
 		C701A6332444455B00A16EC5 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C701A6322444455B00A16EC5 /* FindViewController.m */; };
 		C701A636244445B600A16EC5 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C701A635244445B600A16EC5 /* UserViewController.m */; };
+		C713041024482D4200222036 /* fujinderen.png in Resources */ = {isa = PBXBuildFile; fileRef = C713040F24482D4200222036 /* fujinderen.png */; };
+		C713041224482D5100222036 /* gouwu.png in Resources */ = {isa = PBXBuildFile; fileRef = C713041124482D5100222036 /* gouwu.png */; };
+		C713041424482D5B00222036 /* kanyikan.png in Resources */ = {isa = PBXBuildFile; fileRef = C713041324482D5B00222036 /* kanyikan.png */; };
+		C713041624482D6300222036 /* pengyouquan.png in Resources */ = {isa = PBXBuildFile; fileRef = C713041524482D6300222036 /* pengyouquan.png */; };
+		C713041824482D6B00222036 /* saoyisao.png in Resources */ = {isa = PBXBuildFile; fileRef = C713041724482D6B00222036 /* saoyisao.png */; };
+		C713041A24482D7100222036 /* shipinhao.png in Resources */ = {isa = PBXBuildFile; fileRef = C713041924482D7100222036 /* shipinhao.png */; };
+		C713041C24482D7800222036 /* souyisou.png in Resources */ = {isa = PBXBuildFile; fileRef = C713041B24482D7800222036 /* souyisou.png */; };
+		C713041E24482D8000222036 /* xiaochengxu.png in Resources */ = {isa = PBXBuildFile; fileRef = C713041D24482D8000222036 /* xiaochengxu.png */; };
+		C713042024482D8700222036 /* yaoyiyao.png in Resources */ = {isa = PBXBuildFile; fileRef = C713041F24482D8700222036 /* yaoyiyao.png */; };
+		C713042224482D8D00222036 /* youxi.png in Resources */ = {isa = PBXBuildFile; fileRef = C713042124482D8D00222036 /* youxi.png */; };
+		C7130425244846D800222036 /* GouWuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7130424244846D800222036 /* GouWuViewController.m */; };
 		C7405DF823EFE3C500AE29CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7405DF723EFE3C500AE29CE /* AppDelegate.m */; };
 		C7405DFB23EFE3C500AE29CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7405DFA23EFE3C500AE29CE /* SceneDelegate.m */; };
 		C7405E0123EFE3C500AE29CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7405DFF23EFE3C500AE29CE /* Main.storyboard */; };
@@ -20,8 +31,12 @@
 		C7405E0923EFE3C900AE29CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7405E0823EFE3C900AE29CE /* main.m */; };
 		C7405E1323EFE3C900AE29CE /* sk_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7405E1223EFE3C900AE29CE /* sk_iosTests.m */; };
 		C7405E1E23EFE3C900AE29CE /* sk_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7405E1D23EFE3C900AE29CE /* sk_iosUITests.m */; };
+		C7ACFE262446E580006C0C3D /* dataManage.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7ACFE252446E580006C0C3D /* dataManage.plist */; };
 		C7BF5FB72444461600A62800 /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BF5FB62444461600A62800 /* LinkViewController.m */; };
-		C7DC744024447DED003BDA65 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DC743F24447DED003BDA65 /* TableViewController.m */; };
+		C7EEED2A24472438008251D4 /* find.png in Resources */ = {isa = PBXBuildFile; fileRef = C7EEED2924472437008251D4 /* find.png */; };
+		C7EEED2C24472452008251D4 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = C7EEED2B24472452008251D4 /* user.png */; };
+		C7EEED2E2447248A008251D4 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = C7EEED2D2447248A008251D4 /* main.png */; };
+		C7EEED3024472497008251D4 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = C7EEED2F24472497008251D4 /* link.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +67,18 @@
 		C701A6322444455B00A16EC5 /* FindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
 		C701A634244445B600A16EC5 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
 		C701A635244445B600A16EC5 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		C713040F24482D4200222036 /* fujinderen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fujinderen.png; sourceTree = "<group>"; };
+		C713041124482D5100222036 /* gouwu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gouwu.png; sourceTree = "<group>"; };
+		C713041324482D5B00222036 /* kanyikan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanyikan.png; sourceTree = "<group>"; };
+		C713041524482D6300222036 /* pengyouquan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pengyouquan.png; sourceTree = "<group>"; };
+		C713041724482D6B00222036 /* saoyisao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saoyisao.png; sourceTree = "<group>"; };
+		C713041924482D7100222036 /* shipinhao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipinhao.png; sourceTree = "<group>"; };
+		C713041B24482D7800222036 /* souyisou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = souyisou.png; sourceTree = "<group>"; };
+		C713041D24482D8000222036 /* xiaochengxu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaochengxu.png; sourceTree = "<group>"; };
+		C713041F24482D8700222036 /* yaoyiyao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yaoyiyao.png; sourceTree = "<group>"; };
+		C713042124482D8D00222036 /* youxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youxi.png; sourceTree = "<group>"; };
+		C7130423244846D800222036 /* GouWuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GouWuViewController.h; sourceTree = "<group>"; };
+		C7130424244846D800222036 /* GouWuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GouWuViewController.m; sourceTree = "<group>"; };
 		C7405DF323EFE3C500AE29CE /* sk-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sk-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7405DF623EFE3C500AE29CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7405DF723EFE3C500AE29CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,10 +95,13 @@
 		C7405E1923EFE3C900AE29CE /* sk-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sk-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7405E1D23EFE3C900AE29CE /* sk_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sk_iosUITests.m; sourceTree = "<group>"; };
 		C7405E1F23EFE3C900AE29CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7ACFE252446E580006C0C3D /* dataManage.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = dataManage.plist; sourceTree = "<group>"; };
 		C7BF5FB52444461600A62800 /* LinkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkViewController.h; sourceTree = "<group>"; };
 		C7BF5FB62444461600A62800 /* LinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkViewController.m; sourceTree = "<group>"; };
-		C7DC743E24447DED003BDA65 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		C7DC743F24447DED003BDA65 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C7EEED2924472437008251D4 /* find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = find.png; sourceTree = "<group>"; };
+		C7EEED2B24472452008251D4 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		C7EEED2D2447248A008251D4 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		C7EEED2F24472497008251D4 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +152,7 @@
 		C7405DF523EFE3C500AE29CE /* sk-ios */ = {
 			isa = PBXGroup;
 			children = (
+				C7EEED3124472707008251D4 /* image */,
 				C7BF5FB8244448B900A62800 /* Interface */,
 				C7405DF623EFE3C500AE29CE /* AppDelegate.h */,
 				C7405DF723EFE3C500AE29CE /* AppDelegate.m */,
@@ -136,8 +167,9 @@
 				C701A6292444347500A16EC5 /* NavigationController.m */,
 				C701A62B2444426A00A16EC5 /* TabBarController.h */,
 				C701A62C2444426A00A16EC5 /* TabBarController.m */,
-				C7DC743E24447DED003BDA65 /* TableViewController.h */,
-				C7DC743F24447DED003BDA65 /* TableViewController.m */,
+				C7ACFE252446E580006C0C3D /* dataManage.plist */,
+				C7130423244846D800222036 /* GouWuViewController.h */,
+				C7130424244846D800222036 /* GouWuViewController.m */,
 			);
 			path = "sk-ios";
 			sourceTree = "<group>";
@@ -173,6 +205,27 @@
 				C7BF5FB62444461600A62800 /* LinkViewController.m */,
 			);
 			path = Interface;
+			sourceTree = "<group>";
+		};
+		C7EEED3124472707008251D4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C713042124482D8D00222036 /* youxi.png */,
+				C713041F24482D8700222036 /* yaoyiyao.png */,
+				C713041D24482D8000222036 /* xiaochengxu.png */,
+				C713041B24482D7800222036 /* souyisou.png */,
+				C713041924482D7100222036 /* shipinhao.png */,
+				C713041724482D6B00222036 /* saoyisao.png */,
+				C713041524482D6300222036 /* pengyouquan.png */,
+				C713041324482D5B00222036 /* kanyikan.png */,
+				C713041124482D5100222036 /* gouwu.png */,
+				C713040F24482D4200222036 /* fujinderen.png */,
+				C7EEED2924472437008251D4 /* find.png */,
+				C7EEED2B24472452008251D4 /* user.png */,
+				C7EEED2D2447248A008251D4 /* main.png */,
+				C7EEED2F24472497008251D4 /* link.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,8 +331,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C713042224482D8D00222036 /* youxi.png in Resources */,
 				C7405E0623EFE3C900AE29CE /* LaunchScreen.storyboard in Resources */,
+				C7EEED3024472497008251D4 /* link.png in Resources */,
+				C7EEED2E2447248A008251D4 /* main.png in Resources */,
+				C713041224482D5100222036 /* gouwu.png in Resources */,
+				C7EEED2A24472438008251D4 /* find.png in Resources */,
+				C713041E24482D8000222036 /* xiaochengxu.png in Resources */,
+				C713041C24482D7800222036 /* souyisou.png in Resources */,
+				C713042024482D8700222036 /* yaoyiyao.png in Resources */,
+				C7EEED2C24472452008251D4 /* user.png in Resources */,
+				C713041824482D6B00222036 /* saoyisao.png in Resources */,
+				C7ACFE262446E580006C0C3D /* dataManage.plist in Resources */,
+				C713041024482D4200222036 /* fujinderen.png in Resources */,
+				C713041A24482D7100222036 /* shipinhao.png in Resources */,
+				C713041424482D5B00222036 /* kanyikan.png in Resources */,
 				C7405E0323EFE3C900AE29CE /* Assets.xcassets in Resources */,
+				C713041624482D6300222036 /* pengyouquan.png in Resources */,
 				C7405E0123EFE3C500AE29CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,8 +376,8 @@
 				C7405DF823EFE3C500AE29CE /* AppDelegate.m in Sources */,
 				C701A62A2444347500A16EC5 /* NavigationController.m in Sources */,
 				C701A62D2444426A00A16EC5 /* TabBarController.m in Sources */,
-				C7DC744024447DED003BDA65 /* TableViewController.m in Sources */,
 				C7BF5FB72444461600A62800 /* LinkViewController.m in Sources */,
+				C7130425244846D800222036 /* GouWuViewController.m in Sources */,
 				C701A630244444D000A16EC5 /* MainViewController.m in Sources */,
 				C7405E0923EFE3C900AE29CE /* main.m in Sources */,
 				C701A636244445B600A16EC5 /* UserViewController.m in Sources */,
